@@ -1,0 +1,84 @@
+/*footer {
+    background-color: #16191d;
+    padding: 50px 0;
+    color: #dee2e6;
+    display: flex;
+    flex-shrink: 0;
+  }*/
+
+  /* Footer styles */
+
+  main {
+    flex: 1;
+  }
+footer {
+  background-color: #fff; /* white */
+  color: #333; /* dark gray */
+  padding: 50px 0;
+  display: flex;
+  margin-top: auto;
+}
+
+/* Dark theme footer styles */
+footer.dark {
+  background-color: #333; /* dark gray */
+  color: #f2f2f2; /* light gray */
+  padding: 50px 0;
+    display: flex;
+    margin-top: auto;
+}
+
+/* Theme button styles */
+.theme button {
+  background-color: #fff; /* white */
+  color: #333; /* dark gray */
+  border: 2px solid #333; /* dark gray */
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Dark theme button styles */
+.theme button.dark {
+  background-color: #333; /* dark gray */
+  color: #f2f2f2; /* light gray */
+  border-color: #f2f2f2; /* light gray */
+}
+  
+  footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #212529;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer ul li a:hover {
+    color: #007bff;
+  }
+  
+  footer hr {
+    border-top: 1px solid #dee2e6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  footer p.text-center {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
